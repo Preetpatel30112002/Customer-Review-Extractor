@@ -37,7 +37,7 @@ GOMARBLE_ASSIGNMENT/
 
 - Python 3.x
 - Node.js and npm
-- Google Cloud account for LLM API access
+- Google account for LLM access
 
 ### Backend Setup
 
@@ -56,7 +56,7 @@ GOMARBLE_ASSIGNMENT/
    ```
 
 4. **Configure Google Cloud**:
-   - Set up your Google Cloud credentials and ensure the `GOOGLE_APPLICATION_CREDENTIALS` environment variable is set.
+   - Set up your Google credentials and ensure the `GOOGLE_API_KEY` environment variable is set.
 
 5. **Run the Flask server**:
    ```bash
@@ -88,19 +88,10 @@ GOMARBLE_ASSIGNMENT/
 
 ## Configuration
 
-- Ensure your Google Cloud credentials are correctly configured.
+- Ensure your Google credentials are correctly configured.
 - Adjust the CSS selectors in `Scraper.py` as needed for different websites.
 
 ## Troubleshooting
 
 - **Rate Limit Errors**: If you encounter rate limit errors, consider implementing retry logic or upgrading your API plan.
 - **Selector Issues**: If reviews are not being extracted, verify the CSS selectors and adjust them as needed.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Thanks to the developers of Playwright and Flask for their excellent tools.
-- Special thanks to Google Cloud for providing the LLM API.
